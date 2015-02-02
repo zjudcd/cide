@@ -1,0 +1,29 @@
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 500px;
+    background-color: #f6f6f6;
+}
+
+.section-name {
+    position: relative;
+    left: -10px;
+    top: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #176EAD;
+
+}
+.section-name p {
+    color: #FFFFFF;
+    font-size: 22;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.description {
+    position: relative;
+    
+}
