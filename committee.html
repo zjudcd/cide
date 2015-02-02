@@ -11,15 +11,13 @@
 <script>function FileManagerClass(){return this.bad=null,this.root="http://s.lietou-static.com/",this.cache={},this.init(),this}FileManagerClass.prototype.init=function(){return/(^|\s|;)cdnbad\s*=\s*1($|\s|;)/.test(document.cookie)?this.bad=!0:document.write(unescape('%3Cscript src="'+this.root+'js/cdntest.js?'+~(-new Date()/6e5)+'" type="text/javascript"%3E%3C/script%3E')),this},FileManagerClass.prototype.fetchCDN=function(){var t;return null===this.bad&&(t=new Date,t.setTime(t.getTime()+864e5),document.cookie="cdnbad=1;expires="+t.toGMTString()+";path=/;domain=liepin.com",this.bad=!0,this.root="http://i.s.lietou-static.com/"),this},FileManagerClass.prototype.get=function(){var t,e,s,i=arguments;for(s=0;s<i.length;s++)e=0===i[s].indexOf("http")?i[s]:this.root+(0===i[s].indexOf("/")?i[s].substring(1):i[s]),this.cache[e]||(this.cache[e]=!0,t=i[s].substring(i[s].lastIndexOf(".")+1),-1!==t.indexOf("?")&&(t=t.substring(0,t.indexOf("?"))),"css"===t?document.write(unescape('%3Clink href="'+e+'" rel="stylesheet" type="text/css"/%3E')):"js"===t&&document.write(unescape('%3Cscript src="'+e+'"%3E%3C/script%3E')));return this};var FileManager=new FileManagerClass;</script>
 
 <link href="media/css/common.css" rel="stylesheet" type="text/css"><link href="media/css/public.css" rel="stylesheet" type="text/css"><script src="media/js/jquery-1.7.1.min.js"></script><link rel="stylesheet" type="text/css" href="media/css/default.css"><link rel="stylesheet" type="text/css" href="media/css/content.css"><script type="text/javascript">
-var HeaderHelperConfig = {
-  pageType: 0
-};
+
 </script>
 
 </head>
 <body id="home">
 <!--#set var='compatible' value=''--><link href="media/css/header.css" rel="stylesheet" type="text/css">
-<header id="header-p-beta2">    <div class="top">        <div class="welcome">            <p> welcome to </p>            <a href=""><img alt="logo" class="pngfix" src="media/image/logo.png" width="192" height="40" /><em><i class="icons16 icons16-home-white" title="首页"></i></em></a>        </div>    </div>
+<header id="header-p-beta2">    <div class="top">        <div class="welcome">            <a href=""><img alt="logo" class="pngfix" src="media/image/title.png" height="40" /></a>        </div>    </div>
   <div class="header">
     <div class="wrap">
       <div class="logo">
@@ -37,7 +35,7 @@
 <script>HeaderHelper.navbar("home")</script>
 <div class="slider"> 
   <div class="slider-list">
-    <div style="background:url(media/image/zjg.jpg) center 0 no-repeat #FFF;">    </div>
+    <div style="background:url(media/image/head_1200.png) center 0 no-repeat #FFF;">    </div>
   </div>
 
 </div>

@@ -55,7 +55,8 @@ footer hr {
 }
 #footer-p-beta2 .copyright,
 #footer-p-beta2 .copyright a{
-  color: #999;
+  color: #000;
+  background-color: #f6f6f6;
 }
 #footer-p-beta2 .copyright .copy-side{
   float: left;
@@ -71,12 +72,12 @@ footer hr {
   font-weight: normal;
 }
 #footer-p-beta2 .copyright .copy-main{
-  margin-left: 170px;
+  margin-left: 0px;
   margin-right: -20px;
 }
 #footer-p-beta2 .copyright .copy-main .item{
   float: left;
-  height: 128px;
+  height: 200px;
   padding: 0 40px;
   border-left: 1px dotted #d2d2d2;
 }

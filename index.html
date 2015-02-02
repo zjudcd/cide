@@ -11,15 +11,12 @@
 <script>function FileManagerClass(){return this.bad=null,this.root="http://s.lietou-static.com/",this.cache={},this.init(),this}FileManagerClass.prototype.init=function(){return/(^|\s|;)cdnbad\s*=\s*1($|\s|;)/.test(document.cookie)?this.bad=!0:document.write(unescape('%3Cscript src="'+this.root+'js/cdntest.js?'+~(-new Date()/6e5)+'" type="text/javascript"%3E%3C/script%3E')),this},FileManagerClass.prototype.fetchCDN=function(){var t;return null===this.bad&&(t=new Date,t.setTime(t.getTime()+864e5),document.cookie="cdnbad=1;expires="+t.toGMTString()+";path=/;domain=liepin.com",this.bad=!0,this.root="http://i.s.lietou-static.com/"),this},FileManagerClass.prototype.get=function(){var t,e,s,i=arguments;for(s=0;s<i.length;s++)e=0===i[s].indexOf("http")?i[s]:this.root+(0===i[s].indexOf("/")?i[s].substring(1):i[s]),this.cache[e]||(this.cache[e]=!0,t=i[s].substring(i[s].lastIndexOf(".")+1),-1!==t.indexOf("?")&&(t=t.substring(0,t.indexOf("?"))),"css"===t?document.write(unescape('%3Clink href="'+e+'" rel="stylesheet" type="text/css"/%3E')):"js"===t&&document.write(unescape('%3Cscript src="'+e+'"%3E%3C/script%3E')));return this};var FileManager=new FileManagerClass;</script>
 
 <link href="media/css/common.css" rel="stylesheet" type="text/css"><link href="media/css/public.css" rel="stylesheet" type="text/css"><script src="media/js/jquery-1.7.1.min.js"></script><link rel="stylesheet" type="text/css" href="media/css/default.css"><link rel="stylesheet" type="text/css" href="media/css/content.css"><script type="text/javascript">
-var HeaderHelperConfig = {
-  pageType: 0
-};
 </script>
 
 </head>
 <body id="home">
 <!--#set var='compatible' value=''--><link href="media/css/header.css" rel="stylesheet" type="text/css">
-<header id="header-p-beta2">    <div class="top">        <div class="welcome">            <p> welcome to </p>            <a href=""><img alt="logo" class="pngfix" src="media/image/logo.png" width="192" height="40" /><em><i class="icons16 icons16-home-white" title="首页"></i></em></a>        </div>    </div>
+<header id="header-p-beta2">    <div class="top">        <div class="welcome">            <a href=""><img alt="logo" class="pngfix" src="media/image/title.png" height="40" /></a>        </div>    </div>
   <div class="header">
     <div class="wrap">
       <div class="logo">
@@ -37,13 +34,8 @@
 </header>
 <script src="media/js/header.js"></script>
 <script>HeaderHelper.navbar("home")</script>
-<div class="slider"> 
-  <div class="slider-list">
-    <div style="background:url(media/image/zjg.jpg) center 0 no-repeat #FFF;">    </div>
-  </div>
-
-</div>
-
+<div class="slider">   <div class="slider-list">
+    <div style="background:url(media/image/head_1200.png) center 0 no-repeat #FFF;">    </div>  </div></div>
 <!-- 页面内容 -->
 <!DOCTYPE html><div class="content-wrap">    <div class="content">        <div class="section-name">                        <p>简介</p>        </div>    </div></div>
 <!-- 友情链接 -->
@@ -52,27 +44,24 @@
   <hr />
   <div class="wrap">
     <div class="copyright">
-      <div class="copy-side">
-        服务电话<br />00000000<strong></strong><br /><small>工作日 9:00-19:00</small>
-      </div>
       <div class="copy-main">
         <div class="item">
           <dl>
-            <dt>简介</dt>
-            <dd><a href="" target="_blank" rel="nofollow">联系我们</a></dd>
+            <dt>重要日期</dt>
+            <dd>2015年2月2日提交稿件</dd>            <dd>2015年4月20日反馈第一轮评审意见</dd>            <dd>2015年5月20日提交修改稿</dd>            <dd>2015年6月20日反馈第二轮评审意见</dd>            <dd>2015年7月20日提交最终稿</dd>            <dd>2015年7月底论文录用通知</dd>
           </dl>
         </div>
         <div class="item">
           <dl>
-            <dt>帮助</dt>
-            <dd><a href="" target="_blank" rel="nofollow">帮助</a></dd>
+            <dt>会议投稿</dt>
+            <dd>所有论文发送到邮箱: wufei@zju.edu.cn</dd>            All paper should be submitted </br>             by the following E-mail:            wufei@zju.edu.cn
           </dl>
         </div>
   
         <div class="item">
           <dl>
-            <dt>导航</dt>
-            <dd><a href="" target="_blank" rel="nofollow">地图首页</a></dd>
+            <dt>联系我们</dt>
+            <dd>CIDE-DEA 2015 Secretary</dd>            <dd>Mr.Wu</dd>            <dd>Phone:(86)18652021832</dd>
           </dl>
         </div>
         

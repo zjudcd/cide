@@ -827,18 +827,18 @@ html{
 /* www 首页改版 */
 #home .slider{
   width:100%;
-  height:420px;
+  height:300px;
   position:relative;
   margin-top: -20px;
 }
 #home .slider-list{
   width:100%;
-  height:420px;
+  height:300px;
 }
 #home .slider-list div{
   position:absolute;
   width:100%;
-  height:420px;
+  height:300px;
   top:0;
   left:0;
   background:#f2f2f2;
@@ -864,7 +864,7 @@ html{
 } */
 #home .slider-list div a{
   display:block;
-  height:420px;
+  height:320px;
   width:980px;
   margin:0 auto;
 }
