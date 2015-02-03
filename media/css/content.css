@@ -23,11 +23,46 @@
     margin: 0 auto;
 }
 
+.section-title{
+	font-size:20px;
+	font-style:initial;
+	font-weight:bold;
+	text-align:center;
+	margin:20px;
+}
+.section-word{
+	font-size:18px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:20px;
+	margin-bottom:10px;
+    line-height: 150%;
+}
+.section-word p{
+    text-align: justify; text-justify: inter-ideograph; text-indent: 2em;
+	margin-bottom:20px;
+}
+
+
 .section-content {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
     position: relative;
     top: 30px;
+}
+
+.section-content p {
+    font-size: 20px;
+}
+
+.sub-section {
+    position: relative;
+    left: 30px;
+}
+
+.sub-section li {
+    height: 30px;
+    font-size:20px;
 }
 
 .section-content tr{
@@ -36,6 +71,25 @@
 
 .section-content tr td {
     width: 200px;
+}
+
+.section-date {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    
+}
+
+.section-date tr{
+    height: 60px;
+    font-size: 20px; 
+    border: 3px #fff solid;    
+    background-color: #e3edff;
+}
+.section-date td{
+   padding-right: 80px;
+   border: 3px #fff solid; 
 }
 
 .description {
