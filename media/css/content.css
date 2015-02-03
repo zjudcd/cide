@@ -23,6 +23,21 @@
     margin: 0 auto;
 }
 
+.section-content {
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+.section-content tr{
+    height: 30px; 
+}
+
+.section-content tr td {
+    width: 200px;
+}
+
 .description {
     position: relative;
     
